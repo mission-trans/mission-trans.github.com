@@ -86,10 +86,22 @@ html {
   height: auto;
 }
 
+.imageRow {
+  display: flex;
+}
+
+.imageRow img{
+  margin: 0% 1% 0% 1%;
+  flex: 1;
+  object-fit: cover;
+}
+
 
 .shirtContainer {
   margin: 0;
   display: flex;
+  width: auto;
+  height: auto;
 }
 
 .shirt {
